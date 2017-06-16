@@ -16,6 +16,12 @@ namespace AFHadoopTask
                 InputPath = "Input/AFTask",
                 OutputFolder = "Output/AFTaskPractices",
             };
+
+            HadoopJobConfiguration practice_jobConfig = new HadoopJobConfiguration()
+            {
+                InputPath = "Input/AFTask",
+                OutputFolder = "Output/AFTaskPractices",
+            };
         }
     }
 }
